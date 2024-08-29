@@ -1,0 +1,69 @@
+@media screen and (min-width: 1025px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  svg {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*goal*/
+  .goal {
+    display: grid !important;
+    grid-template-columns: 25% 75% !important;
+  }
+  #goal {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  /*team*/
+  .team {
+    display: grid !important;
+    grid-template-columns: 25% 75% !important;
+  }
+  #team {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 2px;
+  }
+  .timeline {
+    display: flex !important;
+    padding-bottom: 30px !important;
+  }
+  #timeline {
+    grid-column: 4/5;
+    grid-row: 1/3;
+  }
+  /*scope*/
+  #scope {
+    grid-column: 1/3;
+    grid-row: 2/3;
+  }
+  /*primary*/
+  .primary {
+    display: flex !important;
+    padding-top: 10px !important;
+    line-height: 35px !important;
+  }
+  #primary {
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  .container-fluid {
+    grid-template-columns: 1fr 1fr 1fr 1fr !important;
+    grid-template-rows: 1fr 1fr !important;
+  }
+  h4 {
+    height: 50px;
+    border-bottom: 1px solid grey;
+    padding-left: 10px;
+    color: rgb(53, 53, 235);
+  }
+  .bi-question-lg {
+    margin: 0 50px 0 50px !important;
+  }
+}

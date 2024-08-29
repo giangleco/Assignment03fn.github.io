@@ -1,0 +1,298 @@
+@media screen and (min-width: 1025px) {
+  /*Kích thước màn hình của iPad Air (2023) không phải là 820x1180px,
+    mà thường lớn hơn. Ví dụ,
+    iPad Air (2023) có màn hình 10.9 inches với độ phân giải 2360x1640 pixels. Do đó,
+    trong trường hợp này,
+    để xác định kiểu dáng CSS cho iPad Air,
+    có thể sử dụng @media screen and (min-width: 1025px)*/
+
+  .bg-grey {
+    background: #f7f7f7;
+  }
+
+  section .container {
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding: 30px 50px;
+  }
+
+  #nav-bar {
+    /*ghi đè lên tablet.css*/
+    text-align: center;
+  }
+
+  /* banner */
+  #banner {
+    background-image: url(../images/banner.jpg);
+    height: 77vh; /* Adjusts based on viewport height */
+    background-size: cover;
+    width: 100vw; /* Full width of the viewport, hay dùng 100% cũng được */
+    background-repeat: no-repeat;
+    background-position: center center; /* Centers the image */
+  }
+
+  .banner-content {
+    text-align: center;
+    color: #fff;
+  }
+
+  /* nav */
+  nav {
+    display: flex !important;
+    padding: 0 !important;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px !important;
+  }
+
+  nav a {
+    text-decoration: none;
+    border-left: 1px solid rgb(233, 228, 228);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+  }
+
+  .row {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+  }
+  .info-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .info-column {
+    border: 1px solid gray;
+    padding: 20px;
+  }
+
+  .info-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list-icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .list-icon i {
+    color: blue;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 100%;
+  }
+  i::before {
+    background-color: #f7f7f7;
+    color: rgb(85, 85, 252);
+  }
+
+  .line {
+    background-color: rgb(66, 121, 241);
+    width: 50px;
+    height: 3px;
+    display: inline-block;
+  }
+
+  .line-o {
+    background-color: rgb(224, 221, 221);
+  }
+
+  .img-relative {
+    position: relative;
+  }
+
+  .rounded-circle {
+    position: absolute;
+    top: -100px;
+    left: 80px;
+    width: 90px;
+    height: 100px;
+    margin: auto;
+  }
+
+  #personal-info {
+    background-color: rgb(250, 249, 249);
+    margin-left: 20px;
+    display: none;
+  }
+
+  /*CHUNG CHI-GIAI THUONG*/
+  .decoration,
+  img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin-right: auto;
+    margin-top: 0px;
+    border-bottom: 10px;
+    border: 0.2px solid rgb(225, 221, 221);
+  }
+  a.img-relative {
+    display: block;
+  }
+  .giai_thuong {
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .no-decoration {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .chungchi {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .decoration {
+    text-decoration: black;
+  }
+
+  h5 {
+    text-transform: uppercase;
+  }
+
+  /*DU AN*/
+  .Duan {
+    padding: 20px 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .project1 {
+    padding-right: 20px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project11 {
+    border: 0.2px solid rgb(225, 221, 221);
+  }
+
+  .project2 {
+    padding-right: 20px;
+  }
+
+  .project22 {
+    border: 0.2px solid rgb(225, 221, 221);
+  }
+
+  .project3 {
+    padding-right: 20px;
+  }
+
+  .project33 {
+    border: 0.2px solid rgb(225, 221, 221);
+  }
+
+  .Duan p {
+    padding-top: 10px;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  /*introduce*/
+  .introduce {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    border-top: 0.2px solid rgb(225, 221, 221);
+    border-bottom: 0.2px solid rgb(225, 221, 221);
+    padding-bottom: 10px;
+  }
+
+  .nam {
+    background-color: rgb(85, 85, 252);
+    color: #f7f7f7;
+    border-radius: 20px;
+    padding: 5px 20px;
+  }
+
+  /*profile*/
+  .mota {
+    display: grid !important;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 0.2px solid rgb(225, 221, 221);
+  }
+
+  .nhiemvu {
+    display: grid !important;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 0.2px solid rgb(225, 221, 221);
+    padding-bottom: 30px;
+  }
+
+  .congnghe {
+    display: grid !important;
+    grid-template-columns: 1fr 2fr;
+  }
+  #FUNIX {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-left: 30px;
+  }
+
+  /*footer*/
+
+  #footer ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+  }
+
+  li i {
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    border-radius: 100%;
+    background-color: #f7f7f7;
+    color: rgb(85, 85, 252);
+  }
+
+  #footer li {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+  .name {
+    display: block;
+  }
+  .viewmore {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(238, 238, 150);
+    border-radius: 100px;
+    border-color: #fff;
+    margin-bottom: 5px;
+  }
+  .viewless {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(238, 238, 150);
+    border-radius: 100px;
+    border-color: #fff;
+    margin-bottom: 5px;
+  }
+  .hidden {
+    display: none;
+  }
+}

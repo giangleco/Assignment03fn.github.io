@@ -1,0 +1,197 @@
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  /*note: Nếu ghi @media screen and (min-width:768px) and (max-width: 1025px) thì màn hình Edge's Nest Hub 1024x600 sẽ lấy màu mặc định của mobile là vàng*/
+  /*ipad portrait lẫn landscape max-width <1025px */
+
+  #nav-bar {
+    /*ghi đè lên mobile.css*/
+    display: block;
+  }
+
+  /* banner */
+  #banner {
+    background-image: url(../images/banner.jpg);
+    height: 50vh; /* Adjusts based on viewport height */
+    background-size: cover;
+    width: 100%; /*=100% width của parent chứa nó là body*/
+    background-repeat: no-repeat;
+    background-position: center center; /* Centers the image */
+  }
+
+  nav a {
+    text-decoration: none;
+  }
+  .name {
+    display: none;
+  }
+  #nav-bar .container {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    width: 100%;
+  }
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-collapse: collapse;
+  }
+  div.container.row {
+    box-sizing: content-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bg-grey {
+    background: #f7f7f7;
+  }
+
+  .row {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+  }
+  .info-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .info-column {
+    border: 0.2px solid gray;
+    padding-left: 10px;
+  }
+  .info-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  #about {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  i::before {
+    background-color: #f7f7f7;
+    color: rgb(85, 85, 252);
+  }
+  .decoration,
+  img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin-right: auto;
+    margin-top: 0px;
+    border-bottom: 10px;
+    border: 0.2px solid rgb(225, 221, 221);
+  }
+  .no-decoration {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .Duan {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #project {
+    padding: 20px;
+  }
+  .project1 {
+    padding-right: 20px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project11 {
+    border: 0.2px solid rgb(225, 221, 221);
+  }
+
+  .project2 {
+    padding-right: 20px;
+  }
+
+  .project22 {
+    border: 0.2px solid rgb(225, 221, 221);
+  }
+
+  .project3 {
+    padding-right: 20px;
+  }
+
+  .project33 {
+    border: 0.2px solid rgb(225, 221, 221);
+  }
+
+  .Duan p {
+    padding-top: 10px;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  /*introduce*/
+  .introduce {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    border-top: 0.2px solid rgb(225, 221, 221);
+    border-bottom: 0.2px solid rgb(225, 221, 221);
+    padding-bottom: 10px;
+  }
+  /*profile*/
+  .mota {
+    display: grid !important;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 0.2px solid rgb(225, 221, 221);
+  }
+
+  .nhiemvu {
+    display: grid !important;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: 0.2px solid rgb(225, 221, 221);
+    padding-bottom: 30px;
+  }
+
+  .congnghe {
+    display: grid !important;
+    grid-template-columns: 1fr 2fr;
+  }
+  #personal-info {
+    background-color: rgb(250, 249, 249);
+    margin-left: 20px;
+    display: none;
+  }
+  .form-group {
+    margin-top: -7rem;
+  }
+  #target {
+    margin-left: 7rem;
+  }
+  .viewmore {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(238, 238, 150);
+    border-radius: 100px;
+    border-color: #fff;
+    margin-bottom: 5px;
+  }
+  .viewless {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(238, 238, 150);
+    border-radius: 100px;
+    border-color: #fff;
+    margin-bottom: 5px;
+  }
+  .hidden {
+    display: none;
+  }
+}

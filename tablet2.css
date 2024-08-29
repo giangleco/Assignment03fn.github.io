@@ -1,0 +1,81 @@
+@media screen and (min-width: 768px) and (max-width: 1025px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  svg {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*goal*/
+  .goal {
+    border-bottom: 0.5px solid grey;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #goal {
+    background-color: #fff;
+  }
+  /*team*/
+  .team {
+    display: flex;
+  }
+  #team {
+    background-color: #fff;
+  }
+  .timeline {
+    display: flex;
+    padding-bottom: 5px;
+  }
+  #timeline {
+    background-color: #fff;
+  }
+  .number {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(106, 29, 239);
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
+  }
+  /*scope*/
+  #scope {
+    background-color: #fff;
+  }
+  /*primary*/
+  .primary {
+    display: flex;
+    padding-top: 10px;
+    line-height: 35px;
+  }
+  #primary {
+    background-color: #fff;
+  }
+  .container-fluid {
+    margin-right: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr; */
+  }
+  h4 {
+    height: 50px;
+    border-bottom: 1px solid grey;
+    padding-left: 10px;
+    color: rgb(53, 53, 235);
+  }
+  .bi-question-lg {
+    background-color: black;
+    color: #fff;
+    width: 50px;
+    height: 30px;
+    margin: 0 50px 0 50px;
+  }
+}

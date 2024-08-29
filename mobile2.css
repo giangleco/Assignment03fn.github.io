@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*goal*/
+.goal {
+  display: flex;
+  border-bottom: 0.5px solid grey;
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#goal {
+  background-color: #fff;
+  padding: 20px;
+}
+/*team*/
+.team {
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#team {
+  background-color: #fff;
+  padding: 20px;
+}
+.timeline {
+  display: flex;
+  padding-bottom: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#timeline {
+  padding: 20px;
+  background-color: #fff;
+}
+.number {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(106, 29, 239);
+  margin: 0 10px 0 10px;
+}
+/*scope*/
+#scope {
+  padding: 20px;
+  background-color: #fff;
+}
+/*primary*/
+.primary {
+  display: flex;
+  padding-top: 10px;
+  line-height: 35px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#primary {
+  padding: 20px;
+  background-color: #fff;
+}
+.container-fluid {
+  margin-right: 8px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: blue;
+}
+h4 {
+  height: 50px;
+  border-bottom: 1px solid grey;
+  padding-left: 10px;
+  color: rgb(53, 53, 235);
+}
+.bi-question-lg {
+  background-color: black;
+  color: #fff;
+  width: 60px;
+  height: 30px;
+  margin: 0 auto;
+}
